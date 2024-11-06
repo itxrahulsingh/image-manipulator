@@ -1,0 +1,21 @@
+{
+  "name": "itxrahulsingh/image-manipulator",
+  "description": "A Simple image manipulation tool built with PHP and JS.",
+  "require": {
+    "php": ">=7.4",
+    "intervention/image": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "echo 'Installation complete!'"
+    ]
+  }
+}
